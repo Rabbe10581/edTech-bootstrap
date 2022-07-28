@@ -5,3 +5,41 @@ body {
 p span {
     font-size: 16px;
 }
+
+.inside-text {
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-item {
+    /* background-image: linear-gradient(rgba(29, 29, 29, 0.9)) !important; */
+    background: linear-gradient(to top, #fff000 0%, #000fff 100%) !important;
+}
+
+@media (max-width:1200px) {
+    .carousel-item h1 {
+        font-size: 36px !important;
+    }
+}
+
+@media (max-width:769px) {
+    .carousel-item h1 {
+        font-size: 20px !important;
+    }
+
+    .carousel-item p {
+        font-size: 10px !important;
+    }
+}
+
+@media (max-width: 577px) {
+    .carousel-item h1 {
+        font-size: 16px !important;
+    }
+
+    .carousel-item p {
+        font-size: 8px !important;
+    }
+}
