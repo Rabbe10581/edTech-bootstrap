@@ -42,4 +42,8 @@ p span {
     .carousel-item p {
         font-size: 8px !important;
     }
+
+    .carousel-item .btn {
+        font-size: 8px;
+    }
 }
