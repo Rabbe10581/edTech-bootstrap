@@ -46,4 +46,12 @@ p span {
     .carousel-item .btn {
         font-size: 8px;
     }
+
+    .course {
+        flex-direction: column;
+    }
+
+    .discover {
+        width: 100% !important;
+    }
 }
