@@ -49,10 +49,10 @@
                         <a class="nav-link" href="#success">Success</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Register</a>
+                        <a class="nav-link" href="#register">Register</a>
                     </li>
 
                 </ul>
@@ -253,7 +253,7 @@
             </div>
         </section>
         <!-- Ready to join -->
-        <section class="container mt-5">
+        <section class="container mt-5" id="register">
             <div class="register-button container d-flex align-items-center rounded-3 py-5 ps-5 bg-info">
                 <div class="text-white w-100">
                     <h2>Ready to join?</h2>
@@ -261,8 +261,34 @@
                         when
                         looking at its layout.</p>
                 </div>
-                <div class="w-100 pe-5 text-lg-end">
-                    <button class="btn btn-light text-info">Register Now</button>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-light px-4 text-info me-5" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Register Now
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Enter Email</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="name@example.com">
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -312,7 +338,7 @@
             </div>
         </section>
         <!-- Asked Questions -->
-        <section class="container d-flex flex-column align-items-center mt-5">
+        <section class="container d-flex flex-column align-items-center mt-5" id="about">
             <div class="w-100 text-center">
                 <h2>Frequently Asked Questions</h2>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when
