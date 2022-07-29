@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Edu Hunt</title>
+    <title>Skills Hunt</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!-- Google font -->
@@ -21,9 +21,9 @@
 <body>
     <header>
         <!-- navigation -->
-        <nav class="navbar navbar-expand-lg container d-flex flex-row justify-content-between py-2 rounded-4 bg-light">
+        <nav class="navbar navbar-expand-lg container d-flex flex-row justify-content-between bg-white fixed-top">
             <div class="pe-lg-5">
-                <h2 class="ps-2">Edu Hunt</h2>
+                <h2 class="ps-2 fw-bold">Skills Hunt</h2>
             </div>
             <div class="d-none d-sm-none d-md-block d-lg-none ms-auto text-end">
                 <button class="btn btn-primary me-5">Register</button>
@@ -37,16 +37,16 @@
             <div class="collapse navbar-collapse ps-lg-5" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Courses</a>
+                        <a class="nav-link" href="#courses">Courses</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Deal</a>
+                        <a class="nav-link" href="#deal">Deal</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Success</a>
+                        <a class="nav-link" href="#success">Success</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
@@ -63,7 +63,7 @@
         </nav>
 
         <!-- Slider part -->
-        <section class="container mt-4 h-50">
+        <section class="container mt-5 pt-3 h-50" id="home">
             <div class="bd-example">
                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -125,7 +125,7 @@
 
     <main>
         <!-- Discover Courses -->
-        <section class="container d-flex flex-column mt-3">
+        <section class="container d-flex flex-column mt-5" id="courses">
             <div class="container px-4 text-center">
                 <div class="row gx-5">
                     <div class="col">
@@ -144,8 +144,8 @@
 
             <!-- New Start -->
             <div class="container px-4 text-center">
-                <div class="row gx-5 gy-5">
-                    <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="row gx-2 gy-2">
+                    <div class="col-12 col-md-12 col-lg-6">
                         <div class="course d-flex align-items-center border rounded-2 bg-light">
                             <img class="img-fluid" src="./images/course/course-1.png" alt="">
                             <div class="text-start p-3">
@@ -156,63 +156,63 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-12 col-lg-6 ">
+                    <div class="col-12 col-md-12 col-lg-6 ">
                         <div class="course d-flex align-items-center border rounded-2 bg-light">
                             <img class="img-fluid" src="./images/course/course-2.png" alt="">
                             <div class="text-start p-3">
                                 <h5>Javascript Basic to advanced</h5>
                                 <p>Some quick example text to build on the card title and make up the bulk of the card.
                                 </p>
-                                <h6>Price: 20$</h6>
+                                <h6 class="text-info">Price: 25$</h6>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-12 col-lg-6 ">
+                    <div class="col-12 col-md-12 col-lg-6 ">
                         <div class="course d-flex align-items-center border rounded-2 bg-light">
                             <img class="img-fluid" src="./images/course/course-3.png" alt="">
                             <div class="text-start p-3">
                                 <h5>Fundamental Of UI/UX Design</h5>
                                 <p>Some quick example text to build on the card title and make up the bulk of the card.
                                 </p>
-                                <h6>Price: 20$</h6>
+                                <h6 class="text-info">Price: 30$</h6>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-12 col-lg-6 ">
+                    <div class="col-12 col-md-12 col-lg-6 d-none d-md-none d-lg-block">
                         <div class="course d-flex align-items-center border rounded-2 bg-light">
                             <img class="img-fluid" src="./images/course/course-4.png" alt="">
                             <div class="text-start p-3">
                                 <h5>Fundamental Of UI/UX Design</h5>
                                 <p>Some quick example text to build on the card title and make up the bulk of the card.
                                 </p>
-                                <h6>Price: 20$</h6>
+                                <h6 class="text-info">Price: 35$</h6>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-12 col-lg-6 ">
+                    <div class="col-12 col-md-12 col-lg-6 d-none d-md-none d-lg-block">
                         <div class="course d-flex align-items-center border rounded-2 bg-light">
                             <img class="img-fluid" src="./images/course/course-5.png" alt="">
                             <div class="text-start p-3">
                                 <h5>Fundamental Of UI/UX Design</h5>
                                 <p>Some quick example text to build on the card title and make up the bulk of the card.
                                 </p>
-                                <h6>Price: 20$</h6>
+                                <h6 class="text-info">Price: 40$</h6>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-12 col-lg-6 ">
+                    <div class="col-12 col-md-12 col-lg-6 d-none d-md-none d-lg-block">
                         <div class="course d-flex align-items-center border rounded-2 bg-light">
                             <img class="img-fluid" src="./images/course/course-6.png" alt="">
                             <div class="text-start p-3">
                                 <h5>Fundamental Of UI/UX Design</h5>
                                 <p>Some quick example text to build on the card title and make up the bulk of the card.
                                 </p>
-                                <h6>Price: 20$</h6>
+                                <h6 class="text-info">Price: 45$</h6>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="m-5">
+                <div class="m-2">
                     <button class="btn btn-info">View All</button>
                 </div>
             </div>
@@ -220,46 +220,41 @@
         </section>
 
         <!-- Explore earning institute -->
-        <section class="container d-flex mt-5">
+        <section class="container bg-light d-flex mt-5 p-2" id="deal">
             <div class="row d-flex align-items-center">
                 <div class="col-md-6">
                     <img class="img-fluid" src="images/working.png" alt="">
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-6 p-3">
                     <div class="align-items-center">
                         <h2 class="fs-1 fw-semibold">Explore The earning Institute</h2>
-                        <p class="fw-lighter mt-4">There are many variations of passages of Lorem Ipsum available, but
-                            the
-                            majority have suffered
-                            alteration in some form, by injected humour, or randomised words which don't look even
-                            slightly
-                            believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.Anything
-                            embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet
-                            tend to repeat predefined.
-                        </p>
+                        <p class="fw-lighter mt-4">Current world is
+                            developing technically day by day. People are engaging with technology to make there life
+                            easy. So anyone can make a good carear from these technical courses and earn a healthy money
+                            everyday. </p>
                         <div class="d-flex justify-content-between mt-3">
                             <div>
-                                <h2>3.2K+</h2>
+                                <h2 class="text-info">3.2K+</h2>
                                 <p>Online Course</p>
                             </div>
                             <div>
-                                <h2>600K+</h2>
+                                <h2 class="text-info">600K+</h2>
                                 <p>Expart Member</p>
                             </div>
                             <div>
-                                <h2>1K+</h2>
+                                <h2 class="text-info">1K+</h2>
                                 <p>Rating & Review</p>
                             </div>
                         </div>
-                        <button class="btn btn-info mt-3">Read More</button>
+                        <button class="btn btn-info mt-1">Read More</button>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Ready to join -->
         <section class="container mt-5">
-            <div class="container d-flex align-items-center rounded-3 py-5 ps-5 bg-info">
+            <div class="register-button container d-flex align-items-center rounded-3 py-5 ps-5 bg-info">
                 <div class="text-white w-100">
                     <h2>Ready to join?</h2>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page
@@ -272,7 +267,7 @@
             </div>
         </section>
         <!-- Successful Students -->
-        <section class="container mt-5">
+        <section class="container mt-5" id="success">
             <div class="w-100 text-start">
                 <h2>Meet Our Successfull Students</h2>
                 <p class="my-3">It is a long established fact that a reader will be distracted by the readable content
@@ -280,7 +275,7 @@
                     looking at its layout.</p>
             </div>
             <div class="container text-center mt-4">
-                <div class="row">
+                <div class="row gx-2 gy-2">
 
                     <div class="card border border-0 col-lg-3 col-md-6 col-12">
                         <img class="img-fluid" src="images/student/student-1.png" alt="">
@@ -312,12 +307,12 @@
                     </div>
                 </div>
             </div>
-            <div class="container d-flex justify-content-center py-5">
+            <div class="container d-flex justify-content-center pt-2">
                 <button class="btn btn-info">View all</button>
             </div>
         </section>
         <!-- Asked Questions -->
-        <section class="container d-flex flex-column align-items-center">
+        <section class="container d-flex flex-column align-items-center mt-5">
             <div class="w-100 text-center">
                 <h2>Frequently Asked Questions</h2>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when
@@ -400,7 +395,7 @@
             <div>
                 <h2 class="text-center">Trusted by over 800+ companies</h2>
             </div>
-            <div class="row d-flex justify-content-evenly my-4">
+            <div class="row d-flex justify-content-evenly mt-4">
                 <div class="col-lg-2"><img class="img-fluid" src="images/company/company-1.png" alt=""></div>
                 <div class="col-lg-2"><img class="img-fluid" src="images/company/company-2.png" alt=""></div>
                 <div class="col-lg-2"><img class="img-fluid" src="images/company/company-3.png" alt=""></div>
@@ -411,16 +406,20 @@
         </section>
         <!-- Footer -->
         <footer class="container.fluid d-flex flex-column align-items-center p-5 mt-5 bg-dark">
-            <h3 class="text-white fw-bold fs-2 p-2">Edu Hunt</h3>
+            <h3 class="text-white fw-bold fs-2 p-2">Skills Hunt</h3>
             <p class="text-white">Office 41, Zawaya Buildin, Ghala Muscat,
                 Sultanate of Oman</p>
             <p><a class="text-decoration-none text-white" href="">Privacy Ploicy</a> | <a
                     class="text-decoration-none text-white" href="">Terms of use</a></p>
 
             <div class="">
-                <span><a class="fs-3 text-white pe-2" href=""><i class="fa-brands fa-linkedin"></i></a></span>
-                <span><a class="fs-3 text-white pe-2" href=""><i class="fa-brands fa-facebook"></i></i></a></span>
-                <span><a class="fs-3 text-white pe-2" href=""><i class="fa-brands fa-square-twitter"></i></i></a></span>
+                <span><a class="fs-3 text-white pe-2" target="_blank"
+                        href="https://www.linkedin.com/in/mf-rabbe-3ab271244/"><i
+                            class="fa-brands fa-linkedin"></i></a></span>
+                <span><a class="fs-3 text-white pe-2" target="_blank" href="https://www.facebook.com/fazla.rabbe.52/"><i
+                            class="fa-brands fa-facebook"></i></i></a></span>
+                <span><a class="fs-3 text-white pe-2" target="_blank" href="https://twitter.com/fr_anik"><i
+                            class="fa-brands fa-square-twitter"></i></i></a></span>
             </div>
         </footer>
     </main>
